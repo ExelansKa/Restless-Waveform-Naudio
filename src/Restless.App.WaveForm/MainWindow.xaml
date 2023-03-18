@@ -150,7 +150,7 @@
 
                 <TextBlock Style="{StaticResource TextBlockRenderingStyle}" Text="Rendering" Visibility="{Binding RenderTextVisibility}"/>
 
-                <Image Source="{Binding FileVisualLeft}"/>
+                <Image Grid.Row="0" Source="{Binding FileVisualLeft}"/>
                 <Image Grid.Row="1" Source="{Binding FileVisualRight}"/>
             </Grid>
         </ScrollViewer>
